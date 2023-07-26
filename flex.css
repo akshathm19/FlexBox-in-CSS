@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width:800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: burlywood;
+}
+#box3{
+    background-color: chartreuse;
+}
+#box4{
+    background-color: cadetblue;
+}
+#box5{
+    background-color: brown;
+}
